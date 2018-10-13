@@ -1,23 +1,46 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: Bevan, sans-serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+  text-align: center;
+}
+
+.body {
+  text-align: center;
 }
 
 h1 {
-  font-family:sans-serif;
-
-}
- ul {
-  display: inline-block;
-  padding: .6em
-}
-
-.planets div {
+  font-family: Bevan;
+  font-size: 2em;
+  color: #fff;
   text-align: center;
+}
+
+ul > li {
+  display: inline-block;
+  font-family: sans-serif;
+  background-color: #713837;
+  list-style-type: none;
+  border-radius: .3em;
+  padding: .5em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #f33;
+}
+
+.border {
+  background-color: #79756f;
+  border-color: #595652;
+  padding: .75em;
+  border-width: inherit;
 }
