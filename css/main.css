@@ -17,7 +17,6 @@ h1 {
   font-family: Bevan;
   font-size: 2em;
   color: #fff;
-  text-align: center;
 }
 
 ul > li {
@@ -26,7 +25,7 @@ ul > li {
   background-color: #713837;
   list-style-type: none;
   border-radius: .3em;
-  padding: .5em;
+  padding: .6em;
 }
 
 a {
@@ -38,8 +37,9 @@ a:hover {
   border-color: #f33;
 }
 
-.border {
+.box {
   background-color: #79756f;
+  border-style: solid;
   border-color: #595652;
   padding: .75em;
   border-width: inherit;
